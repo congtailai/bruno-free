@@ -13,9 +13,9 @@
     "sandbox:bundle-libraries": "node ./src/sandbox/bundle-libraries.js"
   },
   "dependencies": {
-    "@usebruno/common": "0.1.0",
-    "@usebruno/query": "0.1.0",
-    "@usebruno/requests": "0.1.0",
+    "@usebruno/common": "workspace:*",
+    "@usebruno/query": "workspace:*",
+    "@usebruno/requests": "workspace:*",
     "ajv": "^8.18.0",
     "ajv-formats": "^2.1.1",
     "atob": "^2.1.2",

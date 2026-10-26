@@ -1,0 +1,31 @@
+allowBuilds:
+  '@parcel/watcher': true
+  '@scarf/scarf': true
+  '@tree-sitter-grammars/tree-sitter-yaml': true
+  canvas: true
+  core-js: true
+  core-js-pure: true
+  electron: true
+  esbuild: true
+  native-reg: true
+  protobufjs: true
+  tree-sitter: true
+  tree-sitter-json: true
+
+packages:
+  - "packages/bruno-app"
+  - "packages/bruno-electron"
+  - "packages/bruno-cli"
+  - "packages/bruno-common"
+  - "packages/bruno-converters"
+  - "packages/bruno-schema"
+  - "packages/bruno-schema-types"
+  - "packages/bruno-query"
+  - "packages/bruno-js"
+  - "packages/bruno-lang"
+  - "packages/bruno-tests"
+  - "packages/bruno-toml"
+  - "packages/bruno-graphql-docs"
+  - "packages/bruno-requests"
+  - "packages/bruno-filestore"
+  - "packages/bruno-sqlite"
